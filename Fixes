@@ -1,0 +1,17 @@
+Fixes
+--------------------------------------------
+Credit Card Payment
+- Ask user to register so they can view account after registration. Create view account on navigation page. On view account page, view transaction id, receipt number, order date, amount paid for each transaction and shipping tracking number. 
+
+PayPal
+- retrieve transaction id, type, amount, name. Also after both type of payments, ask user if they wish to become a member to get discounts.
+
+E-mail
+- send confirmation email to customer for credit card payment.
+
+Fix deleting main category bug.
+
+Add shipping method
+-  one day: 22.00
+-  two-day: 11.00
+-  standard(5-8): 6.00

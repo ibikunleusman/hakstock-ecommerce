@@ -1,0 +1,18 @@
+<?php
+define('BASEURL', $_SERVER['DOCUMENT_ROOT'].'/hakstocks/');
+define('CART_COOKIE', 'SBwi43UCkUwips9joo3');
+define('CART_COOKIE_EXPIRE',time() + (86400 * 30));
+define('TAXRATE',0.07);
+
+define('CURRENCY','USD');
+define('CHECKOUTMODE','TEST'); // Change mode to live if choice is live.
+
+if (CHECKOUTMODE == 'TEST') {
+ 	define('STRIPE_PRIVATE', 'sk_test_sq5XwSeTECtmJHvRbppwzkp3');
+ 	define('STRIPE_PUBLIC', 'pk_test_ysj5VkryvsvDyH5XUoyqQYl4');
+}
+
+if (CHECKOUTMODE == 'LIVE') {
+ 	define('STRIPE_PRIVATE', 'sk_live_riTR8XdjAHaD2HFHmF9hVvR3');
+ 	define('STRIPE_PUBLIC', 'pk_live_soMcXNItBkAGxOgwLr9JDdWH');
+}  
