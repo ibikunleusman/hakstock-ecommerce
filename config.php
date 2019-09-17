@@ -8,11 +8,11 @@ define('CURRENCY','USD');
 define('CHECKOUTMODE','TEST'); // Change mode to live if choice is live.
 
 if (CHECKOUTMODE == 'TEST') {
- 	define('STRIPE_PRIVATE', 'sk_test_sq5XwSeTECtmJHvRbppwzkp3');
- 	define('STRIPE_PUBLIC', 'pk_test_ysj5VkryvsvDyH5XUoyqQYl4');
+ 	define('STRIPE_PRIVATE', 'private_key');
+ 	define('STRIPE_PUBLIC', 'public_key');
 }
 
 if (CHECKOUTMODE == 'LIVE') {
- 	define('STRIPE_PRIVATE', 'sk_live_riTR8XdjAHaD2HFHmF9hVvR3');
- 	define('STRIPE_PUBLIC', 'pk_live_soMcXNItBkAGxOgwLr9JDdWH');
+ 	define('STRIPE_PRIVATE', 'private_key');
+ 	define('STRIPE_PUBLIC', 'public_key');
 }  
