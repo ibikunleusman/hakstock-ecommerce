@@ -1,5 +1,5 @@
 <?php
-$db = mysqli_connect('sql106.byethost9.com','b9_16087374','godonthephone96','b9_16087374_hakstock'); // Store connection into variable.
+$db = mysqli_connect('db_host','db_username','db_password','db_hostname'); // Store connection into variable.
 
 if (mysqli_connect_errno()) {									
 	echo "Database Connection Failed: ". mysqli_connect_error(); // Display error message if database fails to connect.
